@@ -1,5 +1,7 @@
-# 广度优先搜索的运行时间为O（人数+边数）O（V+E）-v为顶点（vertice）数,E为边数
-
+"""
+广度优先搜索的运行时间为O（人数+边数）O（V+E）-v为顶点（vertice）数,E为边数
+广度优先搜索用于在非加权图中查找最短路径
+"""
 from collections import  deque
 
 # 创建字典
