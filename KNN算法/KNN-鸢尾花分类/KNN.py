@@ -18,7 +18,6 @@ def kNN_classify(X_train,y_train, X_predict, k=5, p=2):
 
     return np.array([_predict(X_train, y_train, x, k, p) for x in X_predict])
 
-
 # 封装预测单条数据
 def _predict(X_train,y_train, x, k, p):
     distances = [dis(item, x, p=p) for item in X_train]
